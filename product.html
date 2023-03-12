@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" 
+    href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mixMedPlus.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+    <!-- <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="css/css_swiper.css">
+    <title>Document</title>
+  
+<script type="type/javascript" src="mixplus.js"></script>
+</head>
+<body>
+  
+<section id="secProduct"> 
+<div class="text">
+  <h1>Наш продукт</h1>
+</div>
+</section>
+<section class="product-image">
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="img/photo_6113828015793353268_x.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/photo_6113828015793353269_x.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/photo_6113828015793353270_x.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/photo_6113828015793353271_x.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/photo_6113828015793353272_x.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/photo_6145571071106069764_x.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/photo_6145571071106069765_x.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/photo_6145571071106069766_x.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/photo_6145571071106069767_x.jpg" alt="">
+      </div>
+      
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+    
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    grabSlide:true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+<section>
+  <a href="mixMedPlus.html">Вернуться на главную страницу</a>
+</section>
+</body>
+</html>

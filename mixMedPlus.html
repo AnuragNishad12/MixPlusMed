@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" 
+    href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mixMedPlus.css">
+    <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/css_swiper.css">
+    <title>Document</title>
+</head>
+<body>
+  <section class="header">
+    <nav>
+      <a href="mixMedPlus.html"><img src="img/first-aid-kit.png"></a>
+        <h1 class="mainHeading">MixPlusMed</h1>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times"  onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="mixMedPlus.html">Домой
+              </a></li>
+              <li><a href="about.html">О нас
+              </a></li>
+              <li><a href="product.html">Продукты
+              </a></li>
+              <li><a href="contact.html">Связаться с нами
+              </a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()" ></i>
+    </nav>
+    <div class="text-box">
+        <h1>MixPlusMed предлагает вам
+        </h1>
+        <p>-<span class="auto_type"></span></p>
+        <a href="contact.html" class="hero-btn">посетите нас, чтобы узнать больше
+        </a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+     var typed = new Typed(".auto_type",{
+         strings:["бесплатная доставкy" , "скидкy" , "Службy поддержки"],
+         typeSpeed:150,
+         backSpeed:150,
+         loop:true
+     })
+    </script>
+ 
+    </div>
+  </section>
+
+  <section  class="course">
+    <h1>Наши преимущества</h1>
+    <div class="row">
+      <div class="course-col">
+        <h3>Скорость</h3>
+        <p>Доставляем быстрее других</p>
+      </div>
+      <div class="course-col">
+        <h3>Качество</h3>
+        <p>Мы работаем только с лучшими поставщиками</p>
+      </div>
+      <div class="course-col">
+        <h3>Сохранение</h3>
+        <p>Только у нас бесплатная доставка по Узбекистану</p>
+      </div>
+      <div class="course-col">
+        <h3>Customer Service</h3>
+        <p>Мы любим нашего Клиента и ценим каждый отзыв</p>
+      </div>
+    </div>
+  </section>
+  <h1 class="product">Наши продукты</h1>
+  <section id="imgeSlider">
+  <div class="slide-container swiper">
+    <div class="slide-content">
+      <div class="card-wrapper swiper-wrapper">
+        <div class="card-image swiper-slide">
+          <img class="card-img" src="img/photo_6113828015793353268_x.jpg">
+        </div>
+        <div class="card-image swiper-slide">
+          <img class="card-img " src="img/photo_6113828015793353269_x.jpg">
+        </div>
+        <div class="card-image swiper-slide">
+          <img class="card-img" src="img/photo_6113828015793353270_x.jpg">
+        </div>
+        <div class="card-image swiper-slide">
+          <img class="card-img" src="img/photo_6113828015793353271_x.jpg">
+        </div>
+        <div class="card-image swiper-slide">
+          <img class="card-img" src="img/photo_6113828015793353272_x.jpg">
+        </div>
+        <div class="card-image swiper-slide">
+          <img class="card-img" src="img/photo_6113828015793353274_x.jpg">
+        </div>
+        <div class="card-image swiper-slide">
+          <img class="card-img" src="img/photo_6113828015793353275_x.jpg">
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+<section class="cta">
+  <h1>Купить медицинское оборудование в любом месте из Узбекистана</h1>
+  <a href="contact.html" class="hero-btn">Связаться с нами</a>
+</section>
+
+<section class="footer">
+<h4>О нас</h4>
+<img class="adapov" src="img/photo_6116296045735556177_x.jpg">
+<p id="ada">Мы молодая компания, занимающаяся медицинским и лабораторным оборудованием, а также
+  поставка <br>высококачественные химические реагенты.
+  Мы любим наших клиентов так же сильно, как они любят нас.</p>
+  <div class="icon">
+    <i class="fa fa-envelope" aria-hidden="true"></i>
+    <i class="fa fa-telegram"></i>
+    <i class="fa fa-phone"></i>
+  </div>
+</section>
+
+
+
+
+
+
+<script src="css/js-swiper.js"></script>
+
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right="0px";
+      }
+      function hideMenu(){
+        navLinks.style.right="-200px";
+      }
+    </script>
+<script src="mixplus.js"></script>
+
+
+
+
+
+
+
+</body>
+</html>
